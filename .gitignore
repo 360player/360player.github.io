@@ -1,0 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+/log/*
+!/log/.keep
+/tmp
+dump.rdb
+.coveralls.yml
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Tests
+lib-cov
+coverage
+
+# Assets
+.grunt
+.lock-wscript
+build/Release
+node_modules
+.npm
+.node_repl_history
+/.bundle
+
+# Directory cache files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Editor Configurations
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# Database
+*.sql
+*.sqlite
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packaged Files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Dist
+/dist/generics.js
+
+# Snapshots
+**/__snapshots__
+
+# Development
+*.development.js
